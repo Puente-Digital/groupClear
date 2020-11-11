@@ -1,0 +1,2447 @@
+body{
+    position: relative;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 300;
+
+}
+:root{
+    scroll-behavior: smooth;
+}
+.none{
+    display: none;
+}
+header{
+    height: 660px;
+    width: 100vw;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.bgHeader{
+    animation: animateBackHeader 2s ease;
+    background-color: #DADADA4D;
+}
+header img{
+    position: relative;
+    top:20px;
+    left: 10px;
+    width: 100px;
+    animation: animatelogoHeader 5s ease;
+}
+.line_conone_main{
+    display: none;
+}
+span{
+    font-weight: 500;
+}
+.title_header_h1{
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    font-size: 20px;
+    width: 270px;
+    top:490px;
+    text-align: center;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    animation: animatelogoHeader 2s ease;
+   
+}
+.mainAnimation{
+    animation: animatelogoHeader 2s ease;
+}
+.img_empresa_desktop{
+    display: none;
+}
+.line_empresa_desktop{
+    display: none;
+}
+.in_line_desktop_em{
+    display: none;
+}
+.conoce_DESK_big{
+    display: none;
+}
+/* Animación logo inicio*/
+.logo_init{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 250px;
+    top: 340px;
+}
+.lg_path{
+    stroke-dasharray: 1080;
+    animation: animateLogo 3s ease-in-out;
+   
+}
+/* Animación logo inicio*/
+/* Menu */
+.btn_menu{
+    position: absolute;
+    top: 0;
+    right: 20px;
+    width: 50px;
+    height: 90px;
+    background-color: white;
+    box-shadow: 0px 3px 6px #00000029;
+    z-index: 20;
+    animation: animateBarraMenu 2s ease;
+    transition: all 1s ease;
+}
+.btn_menu:hover{
+    background-color: #CA3516;
+}
+.fas{
+    position: absolute;
+    bottom: 5px;
+    left: 12px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.navBar{
+    width: 90vw;
+    background-color: white;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    height: 660px;
+    animation: animateMenu 1s ease;
+    z-index: 10;
+}
+.ul_navbar{
+    position: absolute;
+    left: 5px;
+}
+.li_menu{
+    position: relative;
+    height: 50px;
+    top: 150px;
+    left: -30px;
+    list-style: none;
+}
+.li_menu:hover{
+    background: rgba(232, 38, 26, 0.3);
+}
+.li_menu_link{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    
+}
+.li_menu_link:hover{
+    color: white;
+    font-size: 30px;
+}
+/* Menu */
+/* Section aquí empieza */
+.section_historia{
+    position: relative;
+    margin: auto;
+    top: 20px;
+    width: 100vw;
+    max-width: 1300px;
+
+}
+.circle{
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 60px;
+    height: 60px;
+    border: solid 1px black;
+    border-radius: 500px;
+    background-color: white;
+}
+.two{
+    position: relative;
+    margin: auto;
+    width: 20px;
+    height: 20px;
+}
+.title_history{
+  
+    text-align: center;
+    font-size: 30px;
+    z-index: 10;
+}
+.line{
+    width: 1px;
+    height: 150px;
+    background-color:  black;
+    position: relative;
+    margin: auto;
+}
+.small{
+    width: 30px;
+    height: 30px;
+}
+.small-small{
+    width: 10px;
+    height: 10px;
+}
+.container_paragraph{
+    width: 90vw;
+    max-width: 500px;
+    position: relative;
+    margin: auto;
+    max-width: 800px;
+}
+.paragraph{
+    text-align: justify;
+    line-height: 30px;
+}
+.container_img_historia{
+    position: relative;
+    margin: auto;
+    width: 100px;
+
+
+}
+.img_historia{
+    width: 100px;
+
+
+}
+.seven{
+    width: 80px;
+    border-radius: 1000px;
+}
+/* Section aquí empieza */
+/* Conoce al equipo de Clear Group */
+.section_team{
+    position: relative;
+    top: 50px;
+}
+.container_fotos{
+    position: relative;
+    margin: auto;
+    top: 50px;
+    width: 90vw;
+
+    
+}
+.foto{
+    position: relative;
+    margin: auto;
+    width: 200px;
+    height: 250px;
+    margin-bottom: 30px;
+    box-shadow: 3px 6px 10px #0000008C;
+    border-radius: 40px;
+}
+.container_line_marcelo{
+    position: absolute;
+    width: 100%;
+    top: 100px;
+
+}
+.img_line_marcelo{
+    position: absolute;
+    top:0px;
+ 
+}
+.solis{
+    background-image: url(../img/Foto\ Marcelo.png.jpg);
+    background-size: 800px;
+    background-position-x: -320px;
+    background-position-y: -50px;
+    background-repeat: no-repeat;
+}
+.container_line_gonza{
+    position: absolute;
+    width: 100%;
+    top: 480px;
+
+}
+.gonza{
+    background-image: url(../img/Foto\ Gonzalo\ Equipo.jpg);
+    background-size: 200px;
+    background-position-y: -50px;
+    background-repeat: no-repeat;
+
+}
+.gestionContainer{
+    top: 100px;
+   
+}
+.container_line_gestion{
+    position: absolute;
+    width: 100%;
+    top: 800px;
+
+}
+.container_title_gestion{
+    position: relative;
+    margin: auto;
+    top:-30px;
+    width: 250px;
+}
+.xime{
+    background-image: url(../img/Foto\ xime\ equipo.jpg);
+    background-size: 200px;
+    background-position: center;
+    background-position-y: 0px;
+    background-repeat: no-repeat;
+}
+.dani{
+    background-image: url(../img/Foto\ danipng.png.jpg);
+    background-size: 550px;
+    background-position:center;
+    background-position-y: 0px;
+    background-repeat: no-repeat;
+}
+.kim{
+    background-image: url(../img/Fotokim.png.jpg);
+    background-size: 550px;
+    background-position:center;
+    background-repeat: no-repeat;
+
+}
+.containerFinanzas{
+    top: 165px;
+}
+.container_line_finanza{
+    position: absolute;
+    width: 100%;
+    top: 1970px;
+}   
+.fabian{
+    background-image: url(../img/Foto\ Fabian.png.jpg);
+    background-size: 550px;
+    background-position:center;
+    background-position-y: 0px;
+    background-repeat: no-repeat;
+
+}
+.sine{
+    background-image: url(../img/Foto\ Sinemone.png.jpg);
+    background-size: 550px;
+    background-position:center;
+    background-position-x: -160px;
+    background-repeat: no-repeat;
+}
+.nombre{
+    font-size: 20px;
+    color: black;
+    z-index: 50;
+}
+/* Conoce al equipo de Clear Group */
+/* Valores */
+.section_valores{
+    position: relative;
+    width: 100vw;
+    top: 250px;
+
+}
+.container_line_valores{
+    position: absolute;
+    width: 100%;
+    top: -280px;
+}
+.img_line_valores{
+    position: absolute;
+    top:0px;
+}
+/* Valores */
+/* Empresas */
+.section_empresa{
+    position: relative;
+    top: 280px;
+    width: 100vw;
+}
+.container_line_empresas{
+    position: absolute;
+    width: 100%;
+    top: -210px;
+    z-index: -2;
+}
+.black{
+    color: black;
+}
+.container_empresa{
+    position: relative;
+    margin: auto;
+    width: 250px;
+
+}
+.container_empresas_all{
+    position: relative;
+    top: 200px;
+}
+.img_people{
+    position: relative;
+    margin: auto;
+    width: 250px;
+}
+.container_line_people{
+    position: absolute;
+    width: 100%;
+    top: -180px;
+}
+.container_description_empresas{
+    position: relative;
+    top: 50px;
+    width: 100%;
+}
+.container_puente_description{
+    position: relative;
+    top: 55px;
+}
+.container_line_puente{
+    position: absolute;
+    width: 100%;
+    top: 550px;
+}
+/* Empresas */
+/* Contactanos */
+.contact_us{
+    position: relative;
+    top: 600px;
+}
+.cajetilla{
+    position: relative;
+    margin: auto;
+    border: solid 1px black;
+    background-color: rgba(255, 255, 255, .5);
+    border-radius: 20px;
+    width: 90vw;
+    max-width: 300px;
+    height: 450px;
+  
+
+}
+form{
+    position: relative;
+    top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.formulario{
+    margin-bottom: 10px;
+    width: 70vw;
+    
+}
+textarea{
+    width: 70vw;
+}
+.btn{
+    position: relative;
+    top: 20px;
+    margin: auto;
+    width: 100px;
+}
+/* Contactanos */
+/* Footer */
+.foot{
+    position: relative;
+    top: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+}
+.img_cg{
+    width: 150px;
+}
+/* Fotter */
+/* Animaciones */
+@keyframes animateBackHeader{
+    from{
+        background-color: white;
+    }
+    to{
+        background-color: #DADADA4D;
+    }
+}
+@keyframes animateLogo{
+    0%{
+        stroke-dashoffset: 1080;
+    }
+    100%{
+        stroke-dashoffset: 0;
+    }
+}
+@keyframes animateMenu{
+    from{
+        width: 0;
+    }
+    to{
+        width: 90vw;
+    }
+}
+@keyframes animateMenuDesktop{
+    from{
+        width: 0;
+    }
+    to{
+        width: 55vw;
+    }
+}
+@keyframes animateMenuEnd{
+    from{
+        width: 70vw;
+    }
+    to{
+        width: 0;
+    }
+}
+@keyframes animeteLogoRetrac{
+    from{
+        width: 90vw;
+    }
+    to{
+        width: 0vw;
+    }
+}
+@keyframes animatelogoHeader{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+@keyframes animateBarraMenu{
+    from{
+        height: 0;
+    }
+    to{
+        height: 90px;
+    }
+}
+@media screen and (min-width:320px){
+    /* Lines Conoce al equipos */
+
+    .container_line_marcelo{
+        position: absolute;
+        width: 100%;
+        top: 100px;
+    }
+    .container_line_gonza{
+        position: absolute;
+        width: 100%;
+        top: 580px;
+    
+    }
+ 
+    .container_line_gestion{
+        position: absolute;
+        width: 100%;
+        top: 760px;
+    
+    }
+ 
+    .container_line_finanza{
+        position: absolute;
+        width: 100%;
+        top: 1930px;
+    }
+
+    /* Lines Conoce al equipos */
+    /* Lines valores */
+    .container_line_valores{
+        position: absolute;
+        width: 100%;
+        top: -330px;
+    }
+    /* Lines valores */
+    /* Lines Empresas */
+    .container_empresas_all{
+        position: relative;
+        top: 250px;
+    }
+    .container_line_empresas{
+        position: absolute;
+        width: 100%;
+        top: -240px;
+        z-index: -2;
+    }
+    .container_line_people{
+        position: absolute;
+        width: 100%;
+        top: -220px;
+    }
+    .container_line_puente{
+        position: absolute;
+        width: 100%;
+        top: 400px;
+    }
+    .container_puente_description{
+        position: relative;
+        top: 70px;
+    }
+    /* Lines Empresas */
+    /* Contacto */
+    .contact_us{
+        top: 770px;
+        margin-bottom: 50px;
+    }
+    /* Contacto */
+    .foot{
+        top: 800px;
+    }
+}
+@media screen and (min-width:360px){
+     /* Lines Conoce al equipos */
+    .container_line_marcelo{
+        position: absolute;
+        width: 100%;
+        top: 130px;
+    
+    }
+    .container_line_gonza{
+        position: absolute;
+        width: 100%;
+        top: 490px;
+    
+    }
+
+    .container_line_gestion{
+        position: absolute;
+        width: 100%;
+        top: 740px;
+    }
+
+    .container_line_finanza{
+        position: absolute;
+        width: 100%;
+        top: 1900px;
+    }
+    /* Lines Conoce al equipos */
+    /* Lines valores */
+    .container_line_valores{
+        position: absolute;
+        width: 100%;
+        top: -380px;
+    }
+    /* Lines valores */
+    /* Lines Empresas */
+    .container_empresas_all{
+        top:340px
+    }
+    .container_line_empresas{
+        position: absolute;
+        width: 100%;
+        top: -285px;
+        z-index: -2;
+    }
+    .container_line_people{
+        position: absolute;
+        width: 100%;
+        top: -260px;
+    }
+    .container_line_puente{
+        position: absolute;
+        width: 100%;
+        top: 285px;
+    }
+    .container_puente_description{
+        position: relative;
+        top: 70px;
+    }
+    /* Lines Empresas */
+    /* contacto */
+    .contact_us{
+        top: 800px;
+        margin-bottom: 50px;
+    }
+    /* contacto */
+}
+@media screen and (min-width:375px){
+      /* Lines Conoce al equipos */
+      .container_line_marcelo{
+        position: absolute;
+        width: 100%;
+        top: 70px;
+    
+    }
+    .container_line_gestion{
+        position: absolute;
+        width: 100%;
+        top: 700px;
+    }
+
+    .container_line_finanza{
+        position: absolute;
+        width: 100%;
+        top: 1870px;
+    }
+    /* Lines Conoce al equipos */
+    /* Lines valores */
+    .container_line_valores{
+        position: absolute;
+        width: 100%;
+        top: -380px;
+    }
+    /* Lines valores */
+    /* Lines Empresas */
+    .container_empresas_all{
+        top:350px
+    }
+    .container_line_empresas{
+        position: absolute;
+        width: 100%;
+        top: -290px;
+        z-index: -2;
+    }
+    .container_line_people{
+        position: absolute;
+        width: 100%;
+        top: -290px;
+    }
+    .container_line_puente{
+        position: absolute;
+        width: 100%;
+        top: 230px;
+    }
+    .container_puente_description{
+        position: relative;
+        top: 70px;
+    }
+    /* Lines Empresas */
+    /* contacto */
+    .contact_us{
+        top: 800px;
+        margin-bottom: 50px;
+    }
+    /* contacto */
+}
+@media screen and (min-width:411px){
+    /* Lines Conoce al equipos */
+    .container_line_marcelo{
+      position: absolute;
+      width: 100%;
+      top: 70px;
+  
+    }
+    .container_line_gestion{
+      position: absolute;
+      width: 100%;
+      top: 675px;
+  
+    }
+    .container_line_finanza{
+      position: absolute;
+      width: 100%;
+      top: 1840px;
+    }
+  /* Lines Conoce al equipos */
+
+  /* Lines valores */
+  .container_line_valores{
+      position: absolute;
+      width: 100%;
+      top: -420px;
+  }
+  /* Lines valores */
+  /* Lines Empresas */
+  .container_empresas_all{
+      top:450px
+  }
+  .container_line_empresas{
+      position: absolute;
+      width: 100%;
+      top: -315px;
+      z-index: -2;
+  }
+  .container_description_empresas{
+      top: 80px;
+  }
+  .container_line_people{
+      position: absolute;
+      width: 100%;
+      top: -320px;
+  }
+  .container_line_puente{
+      position: absolute;
+      width: 100%;
+      top: 210px;
+  }
+  .container_puente_description{
+      position: relative;
+      top: 100px;
+  }
+  /* Lines Empresas */
+  /* contacto */
+  .contact_us{
+      top: 900px;
+      margin-bottom: 180px;
+  }
+  /* contacto */
+  /* form */
+  .formulario{
+    margin-bottom: 10px;
+    width: 60vw;
+    }
+    textarea{
+        width: 60vw;
+    }
+    .foot{
+        position: relative;
+        top: 800px;
+    }
+}
+@media screen and (min-width:540px){
+    .title_header_h1{
+        display: block;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        font-size: 20px;
+        width: 400px;
+        top:490px;
+        text-align: center;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 500;
+        animation: animatelogoHeader 2s ease;
+       
+    }
+    /* Lines Conoce al equipos */
+    .container_line_marcelo{
+      position: absolute;
+      width: 100%;
+      top:30px;
+
+    }
+
+    .container_line_gestion{
+      position: absolute;
+      width: 100%;
+      top: 550px;
+
+    }
+
+    .container_line_finanza{
+      position: absolute;
+      width: 100%;
+      top: 1670px;
+    }
+  /* Lines Conoce al equipos */
+
+  /* Lines valores */
+  .container_line_valores{
+      position: absolute;
+      width: 100%;
+      top: -580px;
+  }
+  /* Lines valores */
+  /* Lines Empresas */
+  .container_empresas_all{
+      top:550px
+  }
+  .container_line_empresas{
+      position: absolute;
+      width: 100%;
+      top: -430px;
+      z-index: -2;
+  }
+  .container_description_empresas{
+   
+      top: 80px;
+  }
+  .container_line_people{
+      position: absolute;
+      width: 100%;
+      top: -470px;
+      z-index: -10;
+  }
+  .container_line_puente{
+      position: absolute;
+      width: 100%;
+      top: -70px;
+      z-index: -10;
+  }
+  .container_puente_description{
+      position: relative;
+      top: 100px;
+  }
+  /* Lines Empresas */
+  /* contacto */
+  .contact_us{
+      top: 1050px;
+      margin-bottom: 180px;
+  }
+  /* contacto */
+  /* form */
+    .formulario{
+    margin-bottom: 10px;
+    width: 50vw;
+    }
+    textarea{
+        width: 50vw;
+    }
+    .foot{
+        position: relative;
+        top: 960px;
+    }
+}
+@media screen and (min-width:568px){
+    /* Lines Conoce al equipos */
+    .container_line_gestion{
+      position: absolute;
+      width: 100%;
+      top: 510px;
+
+    }
+    .container_line_finanza{
+      position: absolute;
+      width: 100%;
+      top: 1630px;
+    }
+  /* Lines Conoce al equipos */
+
+  /* Lines valores */
+  .container_line_valores{
+      position: absolute;
+      width: 100%;
+      top: -600px;
+  }
+  /* Lines valores */
+  /* Lines Empresas */
+  .container_empresas_all{
+      top:600px
+  }
+  .container_line_empresas{
+      position: absolute;
+      width: 100%;
+      top: -450px;
+      z-index: -2;
+  }
+  .container_description_empresas{
+      top: 120px;
+  }
+  .container_line_people{
+      position: absolute;
+      width: 100%;
+      top: -480px;
+  }
+  .container_line_puente{
+      position: absolute;
+      width: 100%;
+      top: -170px;
+  }
+  .container_puente_description{
+      position: relative;
+      top: 100px;
+  }
+  /* Lines Empresas */
+  /* contacto */
+  .contact_us{
+      top: 1100px;
+      margin-bottom: 180px;
+  }
+  /* contacto */
+  /* form */
+    .formulario{
+    margin-bottom: 10px;
+    width: 40vw;
+    }
+    textarea{
+        width: 40vw;
+    }
+    .foot{
+        position: relative;
+        top: 1000px;
+    }
+}
+@media screen and (min-width:640px){
+    /* Lines Conoce al equipos */
+    .container_line_marcelo{
+      position: absolute;
+      width: 100%;
+      top: 0px;
+    }
+
+
+    .container_line_gestion{
+      position: absolute;
+      width: 100%;
+      top: 470px;
+    }
+
+    .container_line_finanza{
+      position: absolute;
+      width: 100%;
+      top: 1550px;
+    }
+
+  /* Lines Conoce al equipos */
+  /* Lines valores */
+  .container_line_valores{
+      position: absolute;
+      width: 100%;
+      top: -680px;
+  }
+  /* Lines valores */
+  /* Lines Empresas */
+  .container_empresas_all{
+      top:640px
+  }
+  .container_line_empresas{
+      position: absolute;
+      width: 100%;
+      top: -520px;
+      z-index: -2;
+  }
+  .container_description_empresas{
+      top: 30px;
+  }
+  .container_line_people{
+      position: absolute;
+      width: 100%;
+      top: -560px;
+  }
+  .container_line_puente{
+      position: absolute;
+      width: 100%;
+      top: -295px;
+  }
+  .container_puente_description{
+      position: relative;
+      top: 100px;
+  }
+  /* Lines Empresas */
+  /* contacto */
+  .contact_us{
+      top: 1150px;
+      margin-bottom: 180px;
+  }
+  /* contacto */
+  /* form */
+    .formulario{
+    margin-bottom: 10px;
+    width: 40vw;
+    }
+    textarea{
+        width: 40vw;
+    }
+    .foot{
+        position: relative;
+        top: 1000px;
+    }
+}
+@media screen and (min-width:667px){
+    /* Lines Conoce al equipos */
+
+    .container_line_gestion{
+      position: absolute;
+      width: 100%;
+      top: 450px;
+    }
+
+    .container_line_finanza{
+      position: absolute;
+      width: 100%;
+      top: 1520px;
+    }
+
+  /* Lines Conoce al equipos */
+  /* Lines valores */
+  .container_line_valores{
+      position: absolute;
+      top: -710px;
+  }
+  /* Lines valores */
+  /* Lines Empresas */
+  .container_empresas_all{
+      top:750px
+  }
+  .container_line_people{
+      position: absolute;
+      width: 100%;
+      top: -590px;
+  }
+  .container_line_puente{
+      position: absolute;
+      width: 100%;
+      top: -330px;
+  }
+  .container_puente_description{
+      position: relative;
+      top: 100px;
+  }
+  /* Lines Empresas */
+  /* contacto */
+  .contact_us{
+      top: 1230px;
+      margin-bottom: 180px;
+  }
+  /* contacto */
+  /* form */
+    .formulario{
+    margin-bottom: 10px;
+    width: 40vw;
+    }
+    textarea{
+        width: 40vw;
+    }
+    .foot{
+        position: relative;
+        top: 1100px;
+    }
+}
+@media screen and (min-width:720px){
+    /* Lines Conoce al equipos */
+    .container_line_gestion{
+      position: absolute;
+      width: 100%;
+      top: 400px;
+    }
+
+    .container_line_finanza{
+      position: absolute;
+      width: 100%;
+      top: 1470px;
+    }
+
+  /* Lines Conoce al equipos */
+  /* Lines valores */
+  .container_line_valores{
+      position: absolute;
+      top: -780px;
+  }
+  /* Lines valores */
+  /* Lines Empresas */
+  .container_empresas_all{
+      top:760px
+  }
+  .container_line_empresas{
+    position: absolute;
+    width: 100%;
+    top: -600px;
+    z-index: -2;
+}
+  .container_description_empresas{
+      top: 80px;
+  }
+  .container_line_people{
+      position: absolute;
+      width: 100%;
+      top: -655px;
+  }
+  .container_line_puente{
+      position: absolute;
+      width: 100%;
+      top: -430px;
+  }
+  .container_puente_description{
+      position: relative;
+      top: 100px;
+  }
+  /* Lines Empresas */
+  /* contacto */
+  .contact_us{
+      top: 1230px;
+      margin-bottom: 180px;
+  }
+  /* contacto */
+  /* form */
+    .formulario{
+    margin-bottom: 10px;
+    width: 30vw;
+    }
+    textarea{
+        width: 30vw;
+    }
+    .foot{
+        position: relative;
+        top: 1100px;
+    }
+}
+@media screen and (min-width:731px){
+    /* Lines Conoce al equipos */
+
+    .container_line_gestion{
+      position: absolute;
+      width: 100%;
+      top: 400px;
+    }
+    .container_line_finanza{
+      position: absolute;
+      width: 100%;
+      top: 1450px;
+    }
+  /* Lines Conoce al equipos */
+  /* Lines valores */
+  .container_line_valores{
+      position: absolute;
+      top: -780px;
+  }
+  /* Lines valores */
+  /* Lines Empresas */
+  .container_empresas_all{
+      top:800px
+  }
+  .container_line_empresas{
+    position: absolute;
+    width: 100%;
+    top: -600px;
+    z-index: -2;
+}
+  .container_description_empresas{
+      top: 80px;
+  }
+  .container_line_people{
+      position: absolute;
+      width: 100%;
+      top: -655px;
+  }
+  .container_line_puente{
+      position: absolute;
+      width: 100%;
+      top: -450px;
+  }
+  .container_puente_description{
+      position: relative;
+      top: 100px;
+  }
+  /* Lines Empresas */
+  /* contacto */
+  .contact_us{
+      top: 1230px;
+      margin-bottom: 180px;
+  }
+  /* contacto */
+  /* form */
+    .formulario{
+    margin-bottom: 10px;
+    width: 30vw;
+    }
+    textarea{
+        width: 30vw;
+    }
+    .foot{
+        position: relative;
+        top: 1100px;
+    }
+}
+@media screen and (min-width:768px){
+    /* Lines Conoce al equipos */
+    .container_line_marcelo{
+        position: absolute;
+        width: 100%;
+        top: -50px;
+    }
+
+    .container_line_gestion{
+      display: none;
+    }
+
+    .container_line_finanza{
+      position: absolute;
+      width: 100%;
+      top: 1420px;
+    }
+
+  /* Lines Conoce al equipos */
+  /* Lines valores */
+  .container_line_valores{
+      position: absolute;
+      top: -820px;
+  }
+  /* Lines valores */
+  /* Lines Empresas */
+  .container_empresas_all{
+      top:850px
+  }
+  .container_line_empresas{
+    position: absolute;
+    width: 100%;
+    top: -630px;
+    z-index: -2;
+}
+  .container_description_empresas{
+      top: 200px;
+  }
+  .container_line_people{
+      position: absolute;
+      width: 100%;
+      top: -690px;
+  }
+  .container_line_puente{
+      position: absolute;
+      width: 100%;
+      top: -350px;
+  }
+  .container_puente_description{
+      position: relative;
+      top: 250px;
+  }
+  /* Lines Empresas */
+  /* contacto */
+  .contact_us{
+      top: 1600px;
+      margin-bottom: 180px;
+  }
+  /* contacto */
+  /* form */
+    .formulario{
+    margin-bottom: 15px;
+    width: 30vw;
+    }
+    textarea{
+        width: 30vw;
+    }
+    .foot{
+        position: relative;
+        top: 1500px;
+    }
+}
+@media screen and (min-width:812px){
+    /* Lines Conoce al equipos */
+    .container_line_marcelo{
+        position: absolute;
+        width: 100%;
+        top: -50px;
+    }
+    .container_line_gestion{
+      display: none;
+    }
+
+    .container_line_finanza{
+      position: absolute;
+      width: 100%;
+      top: 1350px;
+    }
+  /* Lines Conoce al equipos */
+  /* Lines valores */
+  .container_line_valores{
+      position: absolute;
+      top: -880px;
+  }
+  /* Lines valores */
+  /* Lines Empresas */
+  .container_empresas_all{
+      top:900px
+  }
+  .container_line_empresas{
+    position: absolute;
+    width: 100%;
+    top: -670px;
+    z-index: -2;
+}
+  .container_description_empresas{
+      top: 80px;
+  }
+  .container_line_people{
+      position: absolute;
+      width: 100%;
+      top: -745px;
+  }
+  .container_line_puente{
+      position: absolute;
+      width: 100%;
+      top: -560px;
+  }
+  .container_puente_description{
+      position: relative;
+      top: 100px;
+  }
+  /* Lines Empresas */
+  /* contacto */
+  .contact_us{
+      top: 1380px;
+      margin-bottom: 180px;
+  }
+  /* contacto */
+  /* form */
+    .formulario{
+    margin-bottom: 15px;
+    width: 30vw;
+    }
+    textarea{
+        width: 30vw;
+    }
+    .foot{
+        position: relative;
+        top: 1250px;
+    }
+}
+@media screen and (min-width:1024px){
+    /* Header */
+    header{
+        width: 70vw;
+        position: absolute;
+    }
+    .btn_menu{
+        position: absolute;
+        top: 0;
+        left: 320px;
+        z-index: 10;
+    }
+    .logo_init{
+        position: absolute;
+        left: 700px;
+        width: 600px;
+        top: 340px;
+        z-index: 999;
+    }
+    .title_header_h1{
+        display: block;
+        position: absolute;
+        font-size: 20px;
+        width: 450px;
+        left: -130px;
+        top:300px;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 500;
+        animation: animatelogoHeader 2s ease;
+    }
+    .navBar{
+        width: 55vw;
+        background-color: white;
+        position: absolute;
+        right: 0px;
+        top: 0px;
+        height: 660px;
+        z-index: 5;
+        animation: animateMenuDesktop 1s ease;
+    }
+    header img{
+        position: relative;
+        top:20px;
+        left: 10px;
+        width: 150px;
+        animation: animatelogoHeader 5s ease;
+    }
+    /* Header */
+    main{
+        position: relative;
+        top:700px
+    }
+    /* Aquí empuieza nuestra historia */
+    .img_historia{
+        width: 80px;
+    }
+    .paragraph{
+        text-align: justify;
+        font-size: 25px;
+        line-height: 50px;
+    }
+    /* Conoce al equipo de Clear Group */
+    .line_conone_main{
+        display: block;
+        position: absolute;
+    }
+    .container_fotos{
+        position: relative;
+        margin: auto;
+        top: 50px;
+        width: 90vw;
+        z-index: 99999;
+        
+    }
+    .foto{
+        position: relative;
+        margin: auto;
+        width: 200px;
+        height: 250px;
+        margin-bottom: 30px;
+        box-shadow: 3px 6px 10px #0000008C;
+        border-radius: 40px;
+    }
+    /* Marcelo */
+    .solisContainer{
+        position: relative;
+        top:250px;
+        right: 150px;
+    }
+    .container_line_marcelo{
+       display: none;
+
+    }
+
+    /* Marcelo */
+    /* Gonza */
+    .gonzaContainer{
+        position: relative;
+        top: -100px;
+        left: 150px;
+        width: 250px;
+    } 
+    .title_gonza{
+        left: 120px;
+    }
+    /* Gonza */
+    .gestionContainer{
+        top: -150px;
+    
+    }
+    .container_line_gestion{
+        display: none;
+    }
+    .container_title_gestion{
+        position: relative;
+        top: 5px;
+    }
+    .gestion_title{
+        font-size: 20px;
+    }
+    .container_fotos_xime_kim_dani{
+        position: relative;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 90vw;
+        max-width: 1200px;
+    }
+    .name_gestion{
+        position: relative;
+        height: 50px;
+        width: 100px;
+        top: 260px;
+        right: 145px;
+
+    }
+    .remove{
+        display: none;
+    }
+    .dekstop_circle_remove{
+        display: none;
+    }
+    .containerFinanzas{
+        top: 165px;
+    }
+    .container_line_finanza{
+        display: none;
+    }
+    .container_fabian_sime{
+        display: flex;
+        position: relative;
+        margin: auto;
+        top:-300px;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 70vw;
+        max-width: 1200px;
+    }
+   .container_title_finanzas{
+       width: 400px;
+       position: relative;
+       top: 100px;
+       margin: auto;   
+    }
+    .name_finanza{
+        position: relative;
+        top: 250px;
+        right: 180px;
+    }
+    /* Conoce al equipo de Clear Group */
+     /* Lines valores */
+     .section_valores{
+         top: 10px;    
+     }
+    .container_line_valores{
+        position: absolute;
+        top: -1100px;
+    }
+/* Lines valores */
+    /* Lines Empresas */
+    .section_empresa{
+        top: 80px;
+    }
+    .container_empresas_all{
+        top:500px
+    }
+    .container_line_empresas{
+        position: absolute;
+        width: 100%;
+        top: -180px;
+        z-index: -2;
+    }
+    .empresas{
+        position: absolute;
+        top:60px;
+        right: 330px;
+        width: 120px;
+    }
+    .black{
+        color: black;
+    }
+    .img_line_empresas{
+        display: none;
+    }
+    .container_description_empresas{
+        top: 80px;
+    }
+    .container_line_people{
+        position: absolute;
+        width: 100%;
+        top: 20px;
+    }
+    .in_line_desktop_em{
+        display: block;
+    }
+    .img_empresa_desktop{
+        display: block;
+    }
+    .container_empresa{
+        position: absolute;
+        top: 155px;
+        left: 150px;
+    }
+    .desktopCircle{
+        position: absolute;
+        top: 255px;
+        left: 200px;
+    }
+    .puenteDesktop{
+        top: -300px;
+        left: 700px;
+    }
+    .container_description_empresas{
+        position: relative;
+    }
+    .paragraphDesktop{
+        font-size: 15px;
+        line-height: 30px;
+    }
+    .quitar{
+        display: none;
+    }
+    .containerParagraphDesktop{
+        position: relative;
+        top: -250px;
+        width: 400px;
+        left: 140px;
+    }
+    .img_line_people{
+        display: none;
+    }
+    .container_line_puente{
+        display: none;
+    }
+    .container_puente_description{
+        position: relative;
+        top: 100px;
+    }
+    .puentecircle_desktop{
+        position: absolute;
+        top: -340px;
+        left: 800px;
+    }
+    .move_empresas_proposito{
+        position: relative;
+        top: -50px;
+        right: 400px;
+    }
+    .move_empresas_inspiracion{
+        position: relative;
+        top: -40px;
+        right: 200px;
+    }
+    .move_empresas_descrip{
+        position: relative;
+        top: -40px;
+        
+    }
+    .move_empresas_proposito_people{
+        position: relative;
+        right: 400px;
+    }
+    .move_empresas_inspiracion_people{
+        position: relative;
+        right: 200px;
+    }
+    /* Lines Empresas */
+    /* contacto */
+    .contact_us{
+        top: 480px;
+        margin-bottom: 180px;
+    }
+    /* contacto */
+    /* form */
+    .formulario{
+    margin-bottom: 15px;
+    width: 25vw;
+    }
+    textarea{
+        width: 25vw;
+    }
+    .foot{
+        position: relative;
+        top: 1080px;
+    }
+}
+@media screen and (min-width:1200px){
+    .logo_init{
+        left: 830px;
+    }
+    .gestionContainer{
+        top: -50px; 
+    }
+    .containerFinanzas{
+        top: 280px;
+    }
+    .name_gestion{
+        position: relative;
+        height: 50px;
+        width: 100px;
+        top: 260px;
+        right: 180px;
+    }
+    /* Lines valores */
+    .section_valores{
+        top: 190px;         
+    }
+    .container_line_valores{
+        position: absolute;
+        top: -1300px;
+    }
+   /* Lines valores */
+   .section_empresa{
+    top: 80px;
+    }
+      /* Lines Empresas */
+      .section_empresa{
+        top: 200px;
+    }
+    .container_empresas_all{
+        top:650px
+    }
+    .container_line_empresas{
+        position: absolute;
+        width: 100%;
+        top: -200px;
+        z-index: -2;
+    }
+    .empresas{
+        position: absolute;
+        top:80px;
+        right: 350px;
+        width:250px;
+    } 
+    .desktopCircle{
+        position: absolute;
+        top: 280px;
+        left: 200px;
+    }
+    .puenteDesktop{
+        top: -310px;
+        left: 800px;
+    }
+    .container_description_empresas{
+        position: relative;
+        top: 30px;
+    }
+    .containerParagraphDesktop{
+        position: relative;
+        top: -250px;
+        width: 400px;
+        margin-bottom: 50px;
+        left: 140px;
+    }
+    .container_puente_description{
+        position: relative;
+        top: 130px;
+    }
+    .puentecircle_desktop{
+        position: absolute;
+        top: -390px;
+        left: 900px;
+    }
+        /* contacto */
+        .contact_us{
+            top: 750px;
+            margin-bottom: 180px;
+        }
+        /* contacto */
+        /* form */
+        .formulario{
+        margin-bottom: 15px;
+        width: 20vw;
+        }
+        textarea{
+            width: 20vw;
+        }
+        .foot{
+            position: relative;
+            top: 1320px;
+        }
+}
+@media screen and (min-width:1280px){
+    /* Header */
+    .logo_init{
+        left: 890px;
+    }
+    .gestionContainer{
+        top: -20px;
+    
+    }
+    .container_line_valores{
+        position: absolute;
+        top: -1400px;
+    }
+    .container_line_empresas{
+        position: absolute;
+        width: 100%;
+        top: -230px;
+        z-index: -2;
+    }
+}
+@media screen and (min-width:1366px){
+    /* Header */
+    .logo_init{
+        left: 910px;
+    }
+    .gestionContainer{
+        top: 15px;  
+    }
+    .containerFinanzas{
+        top: 350px;
+    }
+    .container_line_valores{
+        position: absolute;
+        top: -1500px;
+    }
+    .name_finanza{
+        right: 230px;
+    }
+    .section_valores{
+        top: 200px;       
+    }
+    .empresas{
+        position: absolute;
+        top:80px;
+        right: 440px;
+        width:250px;
+    }
+    .container_empresas_all{
+        top:750px
+    }
+    .container_line_people{
+        position: absolute;
+        width: 100%;
+        top: 5px;
+    }
+    .puenteDesktop{
+        top: -310px;
+        left: 870px;
+    }
+    /* contacto */
+    .contact_us{
+            top: 850px;
+            margin-bottom: 180px;
+    }
+    /* contacto */
+    /* form */
+    .formulario{
+        margin-bottom: 15px;
+        width: 20vw;
+    }
+    textarea{
+            width: 20vw;
+    }
+    .foot{
+            position: relative;
+            top: 1400px;
+    }
+}
+@media screen and (min-width:1400px){
+    .logo_init{
+        left: 950px;
+    }  
+    /* Conoce al equipo de Clear Group */
+    .gestionContainer{
+        top: -90px;
+    }
+    .containerFinanzas{
+        top: 230px;
+    }
+    .empresas{
+     
+        right: 480px;
+        width:250px;
+    }
+    .line_conone_main{
+        top: 10px;
+        display: block;
+        position: absolute;
+        z-index: -2;
+    }
+    /* Conoce al equipo de Clear Group */
+     /* Lines valores */
+    .section_valores{
+         top: 80px;
+       
+    }
+    .container_line_valores{
+        position: absolute;
+        top: -1520px;
+    }
+    /* Lines valores */ 
+}
+@media screen and (min-width:1430px){
+    .logo_init{
+        left: 970px;
+    }
+    /* Conoce al equipo de Clear Group */
+    .gestionContainer{
+        top: -90px;
+    
+    }
+    .containerFinanzas{
+        top: 230px;
+    }
+    .empresas{
+     
+        right: 480px;
+        width:250px;
+    }
+    /* Conoce al equipo de Clear Group */
+     /* Lines valores */
+    .section_valores{
+         top: 80px;
+       
+    }
+    .container_line_valores{
+        position: absolute;
+        top: -1570px;
+    }
+    /* Lines valores */
+    .formulario{
+        margin-bottom: 15px;
+        width: 15vw;
+    }
+    textarea{
+            width: 15vw;
+    }
+}
+@media screen and (min-width:1480px){
+    .logo_init{
+        left: 990px;
+    }
+    
+    /* Conoce al equipo de Clear Group */
+    .gestionContainer{
+        top: -90px;
+    
+    }
+    .containerFinanzas{
+        top: 230px;
+    }
+    .empresas{
+     
+        right: 480px;
+        width:250px;
+    }
+
+    /* Conoce al equipo de Clear Group */
+    .empresas{
+        position: absolute;
+        top:80px;
+        right: 550px;
+        width:250px;
+    }
+    .container_empresas_all{
+        top:790px
+    }
+     /* Lines valores */
+    .section_valores{
+         top: 80px;
+       
+    }
+    .container_line_valores{
+        position: absolute;
+        top: -1600px;
+    }
+    /* Lines valores */
+    .formulario{
+        margin-bottom: 15px;
+        width: 15vw;
+    }
+    textarea{
+            width: 15vw;
+    }
+   
+
+}
+@media screen and (min-width:1496px){
+    .logo_init{
+        left: 1030px;
+    }   
+    /* Conoce al equipo de Clear Group */
+    .gestionContainer{
+        top: -60px;
+    
+    }
+    .containerFinanzas{
+        top: 230px;
+    }
+    .empresas{
+     
+        right: 480px;
+        width:250px;
+    }
+    .section_empresa{
+        top: 70px;
+    }
+    .container_line_empresas{
+        position: absolute;
+        width: 100%;
+        top: -260px;
+        z-index: -2;
+    }
+
+    /* Conoce al equipo de Clear Group */
+    .empresas{
+        position: absolute;
+        top:50px;
+        right: 550px;
+        width:250px;
+    }
+    .container_empresas_all{
+        top:830px
+    }
+    .container_puente_description{
+        position: relative;
+        top: 200px;
+    }
+    .desktopCircle{
+        position: absolute;
+        top: 300px;
+        left: 200px;
+    }
+    .puenteDesktop{
+        top: -310px;
+        left: 1000px;
+    }
+    .puentecircle_desktop{
+        position: absolute;
+        top: -395px;
+        left: 1150px;
+    }
+     /* Lines valores */
+    .section_valores{
+         top: 80px;
+       
+    }
+    .container_line_valores{
+        position: absolute;
+        top: -1630px;
+    }
+     /* contacto */
+    .contact_us{
+        top: 1000px;
+        margin-bottom: 180px;
+    }
+/* contacto */
+    /* Lines valores */
+    .formulario{
+        margin-bottom: 15px;
+        width: 15vw;
+    }
+    textarea{
+            width: 15vw;
+    }
+    .foot{
+        position: relative;
+        top: 1580px;
+}
+}
+@media screen and (min-width:1500px){
+    /* Header */
+    .logo_init{
+        left: 1000px;
+        width: 900px;
+    }
+    .container_line_valores{
+        position: absolute;
+        top: -1660px;
+    }
+    .container_line_empresas{
+        position: absolute;
+        width: 100%;
+        top: -260px;
+        z-index: -2;
+    }
+    .empresas{
+     
+        right: 510px;
+        width:200px;
+    }
+    .puenteDesktop{
+        top: -310px;
+        left: 1000px;
+    }
+    .section_empresa{
+        top: 40px;
+        
+    }
+
+}
+@media screen and (min-width:1600px){
+    /* Header */
+    .logo_init{
+        left: 1100px;
+        width: 900px;
+    }
+    .container_line_valores{
+        position: absolute;
+        top: -1750px;
+    }
+    .empresas{
+     
+        right: 600px;
+        width:200px;
+    }
+    .containerParagraphDesktop{
+        position: relative;
+        top: -250px;
+        width: 800px;
+        margin-bottom: 50px;
+        left: 140px;
+    }
+    .paragraphDesktop{
+        font-size: 20px;
+    }
+    .container_description_empresas{
+        top: 180px;
+    }
+    .img_people{
+        width: 180px;
+    }
+    .container_puente_description{
+        top: 200px;
+    }
+    .puenteDesktop{
+        left: 1100px;
+        top: -380px;
+    }
+    .puentecircle_desktop{
+        position: absolute;
+        top: -410px;
+        left: 1100px;
+    }
+      /* contacto */
+      .contact_us{
+        top: 950px;
+        margin-bottom: 180px;
+    }
+    /* contacto */
+    
+    .foot{
+            position: relative;
+            top: 1490px;
+    }
+
+}
+@media screen and (min-width:1700px){
+    .logo_init{
+        left: 1180px;
+        width: 900px;
+    }
+    .container_line_valores{
+        position: absolute;
+        top: -1850px;
+    }
+    .empresas{
+     
+        right: 730px;
+        width:200px;
+    }
+}
+@media screen and (min-width:1800px){
+    .logo_init{
+        left: 1200px;
+        width: 900px;
+    }
+    .container_line_valores{
+        position: absolute;
+        top: -1980px;
+    }
+    .empresas{
+     
+        right: 800px;
+        width:200px;
+    }
+    .puenteDesktop{
+        left: 1300px;
+        top: -300px;
+    }
+    .puentecircle_desktop{
+        position: absolute;
+        top: -380px;
+        left: 1400px;
+    }
+
+}
+@media screen and (min-width:1900px){
+    .logo_init{
+        left: 1300px;
+        width: 900px;
+    }
+    .container_line_valores{
+        position: absolute;
+        top: -1980px;
+    }
+    .empresas{
+     
+        right: 800px;
+        width:200px;
+    }
+    .puenteDesktop{
+        left: 1300px;
+        top: -300px;
+    }
+    .puentecircle_desktop{
+        position: absolute;
+        top: -380px;
+        left: 1400px;
+    }
+    .gestionContainer{
+        top: -20px;
+    
+    }
+    .containerFinanzas{
+        top: 300px;
+    }
+    .name_finanza{
+        right: 280px;
+    }
+    .section_valores{
+        top: 200px;
+      
+   }
+   .container_line_valores{
+    position: absolute;
+    top: -2100px;
+}
+    .empresas{
+    
+        right: 800px;
+        width:200px;
+    }
+    .puenteDesktop{
+        left: 1300px;
+        top: -350px;
+    }
+
+    .section_empresa{
+        top: 220px;
+        
+    }
+    .container_line_empresas{
+        position: absolute;
+        width: 100%;
+        top: -350px;
+        z-index: -2;
+    }
+  
+    .puentecircle_desktop{
+        position: absolute;
+        top: -400px;
+        left: 1400px;
+    }
+    .desktopCircle{
+        position: absolute;
+        top: 340px;
+        left: 200px;
+    }
+    .container_puente_description{
+        top: 270px;
+    }
+        /* contacto */
+        .contact_us{
+            top: 1200px;
+            margin-bottom: 180px;
+        }
+        /* contacto */
+        
+        .foot{
+                position: relative;
+                top: 1780px;
+        }
+    
+}
+@media screen and (min-width:2000px){
+    .logo_init{
+        left: 1380px;
+        width: 900px;
+    }
+    .container_line_valores{
+        position: absolute;
+        top: -1980px;
+    }
+    .empresas{
+     
+        right: 800px;
+        width:200px;
+    }
+    .puenteDesktop{
+        left: 1300px;
+        top: -300px;
+    }
+    .puentecircle_desktop{
+        position: absolute;
+        top: -380px;
+        left: 1400px;
+    }
+    .gestionContainer{
+        top: 17px;
+    
+    }
+    .containerFinanzas{
+        top: 390px;
+    }
+    .name_finanza{
+        right: 280px;
+    }
+    .section_valores{
+        top: 300px;
+      
+   }
+   .container_line_valores{
+    position: absolute;
+    top: -2200px;
+}
+    .empresas{
+    
+        right: 800px;
+        width:200px;
+    }
+    .puenteDesktop{
+        left: 1300px;
+        top: -350px;
+    }
+
+    .section_empresa{
+        top: 280px;
+        
+    }
+        /* contacto */
+        .contact_us{
+            top: 1300px;
+            margin-bottom: 180px;
+        }
+        /* contacto */
+        
+        .foot{
+                position: relative;
+                top: 1900px;
+        }
+        .formulario{
+            margin-bottom: 15px;
+            width: 12vw;
+        }
+        textarea{
+                width: 12vw;
+        }
+}
+@media screen and (min-width:2500px){
+
+    .logo_init{
+        left: 1750px;
+        width: 900px;
+    }
+    .line_conone_main{
+        top: -20px;
+        display: block;
+        position: absolute;
+        z-index: -2;
+    }
+    .container_line_valores{
+        position: absolute;
+        top: -1980px;
+    }
+    .empresas{
+     
+        right: 800px;
+        width:200px;
+    }
+    .puenteDesktop{
+        left: 1300px;
+        top: -300px;
+    }
+    .puentecircle_desktop{
+        position: absolute;
+        top: -380px;
+        left: 1400px;
+    }
+    .gestionContainer{
+        top: 50px;
+    
+    }
+    .containerFinanzas{
+        top: 420px;
+    }
+    .name_finanza{
+        right: 280px;
+    }
+    .section_valores{
+        top: 300px;
+      
+    }
+    .container_empresa{
+        left: 350px;
+    }
+    .desktopCircle{
+        left: 350px;
+
+    }
+   .container_line_valores{
+    position: absolute;
+    top: -2790px;
+    }
+    .empresas{
+    
+        right: 1050px;
+        width:200px;
+    }
+    .container_line_empresas{
+        position: absolute;
+        width: 100%;
+        top: -500px;
+        z-index: -2;
+    }
+    .container_empresas_all{
+        top:990px
+    }
+    .container_line_people{
+        position: absolute;
+        width: 100%;
+        top: -200px;
+    }
+    .puenteDesktop{
+        left: 1700px;
+        top: -350px;
+    }
+    .puentecircle_desktop{
+        position: absolute;
+        top: -490px;
+        left: 1800px;
+    }
+    .section_empresa{
+        top: 320px;
+        
+    }
+    .img_people{
+        width: 300px;
+    }
+    /* contacto */
+    .contact_us{
+            top: 1500px;
+            margin-bottom: 180px;
+    }
+    /* contacto */ 
+    .foot{
+                position: relative;
+                top: 2080px;
+    }
+}
