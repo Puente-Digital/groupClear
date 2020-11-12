@@ -21,7 +21,13 @@ boton.addEventListener("click", function (e) {
     },
   })
     .then(function (res) {
-      console.log(res);
+      const { status } = res;
+      if (status === 200) {
+        name.value = "";
+        lastname.value = "";
+        email.value = "";
+        message.value = "";
+      }
     })
     .catch(function (err) {
       console.log(err.response);
