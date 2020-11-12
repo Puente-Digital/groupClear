@@ -25,6 +25,15 @@ animation();
 let navBarActivate = document.getElementById('navBarActivate');
 let x = document.createElement('em');
 let barras = document.getElementById('barras');
+let menu = document.querySelectorAll('.ul_navbar a');
+
+console.log(menu);
+
+const clickMenu = () =>{
+    menu.forEach(elemento =>{
+        elemento.addEventListener('click', retractMenu);
+    })
+}
 
 const activateMenu = () =>{
     x.classList.add('fas', 'fa-times');
@@ -40,4 +49,5 @@ const retractMenu = () =>{
 }
 x.addEventListener('click', retractMenu);
 barras.addEventListener('click', activateMenu);
+clickMenu();
 //btn menu
