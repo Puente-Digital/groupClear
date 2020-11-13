@@ -489,20 +489,25 @@
       <section id="contacto" class="contact_us">
         <h4 class="title_history">CONTÁCTANOS</h4>
         <div class="cajetilla">
-          <form>
+          <form 
+          id="form"
+          >
             <input
+              name="nombre"
               id="name"
               class="formulario"
               type="text"
               placeholder="Nombre"
             />
             <input
+              name="apellido"
               id="lastname"
               class="formulario"
               type="text"
               placeholder="Apellido"
             />
             <input
+              name="email"
               id="email"
               class="formulario"
               type="email"
@@ -523,6 +528,19 @@
             />
           </form>
         </div>
+        <div id="exito" class="mensajeExito none">
+          <p class="msj">Formulario enviado con éxito</p>
+          <em class="fas fa-check-circle"></em>
+        </div>
+        <div id="err"  class="mensajeErr none">
+          <p class="msj">Ocurrió un error, inténtelo de nuevo</p>
+          <em class="fas fa-times-circle"></em>
+        </div>
+        <div id="send"  class="mensajeExito none">
+          <p class="msj">Enviando...</p>
+          <em class="fas fa-spinner"></em>
+        </div>
+
       </section>
     </main>
     <footer class="foot">

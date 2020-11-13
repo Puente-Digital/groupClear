@@ -18,6 +18,38 @@ a{
     text-decoration: none;
     color: black;
 }
+.mensajeExito{
+    position: relative;
+    margin: auto;
+    width: 280px;
+    height: 80px;
+    animation: animatelogoHeader 2s ease;
+}
+.msj{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+}
+.fa-check-circle{
+    color: green;
+    margin-left: 120px;
+}
+.fa-times-circle{
+    color: red;
+    margin-left: 120px;
+}
+.fa-spinner{
+    color: gray;
+    margin-left: 120px;
+    animation: animateRotate 10s ease;
+}
+.mensajeErr{
+    position: relative;
+    margin: auto;
+    width: 280px;
+    height: 80px;
+    animation: animatelogoHeader 2s ease;
+}
 .bgHeader{
     animation: animateBackHeader 2s ease;
     background-color: #DADADA4D;
@@ -64,6 +96,12 @@ span{
 }
 .conoce_DESK_big{
     display: none;
+}
+.borderForm{
+    border: solid 2px red;
+}
+.borderFormCorrecto{
+    border: solid 2px green;
 }
 /* Animación logo inicio*/
 .logo_init{
@@ -210,8 +248,7 @@ span{
 /* Conoce al equipo de Clear Group */
 .section_team{
     position: relative;
-    top: 50px;
-   
+    top: 50px;  
 }
 .container_fotos{
     position: relative;
@@ -330,7 +367,6 @@ span{
 .img_line_valores{
     position: absolute;
     top:0px;
-  
 }
 /* Valores */
 /* Empresas */
@@ -389,6 +425,7 @@ span{
 .contact_us{
     position: relative;
     top: 600px;
+
 }
 .cajetilla{
     position: relative;
@@ -406,11 +443,12 @@ form{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    margin: auto;
+    margin: auto; 
 }
 .formulario{
     margin-bottom: 10px;
-    width: 70vw;  
+    width: 70vw;
+    outline:none  
 }
 textarea{
     width: 70vw;
@@ -500,6 +538,16 @@ textarea{
     }
     to{
         height: 90px;
+    }
+}
+@keyframes animateRotate{
+    form{
+        transform-origin: center;
+        transform: rotate(0deg);
+    }
+    to{
+        transform-origin: center;
+        transform: rotate(360deg);
     }
 }
 @media screen and (min-width:320px){

@@ -1,6 +1,3 @@
-//Animación Scroll
-
-//Animación Scroll
 
 //Start Animation
 let btnMenu = document.getElementById('btn');
@@ -51,3 +48,7 @@ x.addEventListener('click', retractMenu);
 barras.addEventListener('click', activateMenu);
 clickMenu();
 //btn menu
+
+/* validation form */
+
+
