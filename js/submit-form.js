@@ -92,7 +92,4 @@ boton.addEventListener("click", function (e) {
   }else{
     alert('Por favor llenar correctamente el formulario');
   }
-
-     
-
 });
