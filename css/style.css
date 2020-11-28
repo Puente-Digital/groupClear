@@ -1833,7 +1833,15 @@ body.language .nameinput::placeholder::before{
     .logo_init{
         left: 910px;
     }
-   
+    .languageLetras{
+        position: absolute;
+        cursor: pointer;
+        font-size: 30px;
+        top: 50px;
+        right: -270px;
+        z-index: 99999999;
+        animation: animatelogoHeader 2s ease;
+    }
     .gestionContainer{
         top: 15px;  
     }
@@ -1895,11 +1903,19 @@ body.language .nameinput::placeholder::before{
     .gestionContainer{
         top: -90px;
     }
+    .languageLetras{
+        position: absolute;
+        cursor: pointer;
+        font-size: 30px;
+        top: 50px;
+        right: -300px;
+        z-index: 99999999;
+        animation: animatelogoHeader 2s ease;
+    }
     .containerFinanzas{
         top: 230px;
     }
     .empresas{
-     
         right: 480px;
         width:250px;
     }
@@ -1912,8 +1928,7 @@ body.language .nameinput::placeholder::before{
     /* Conoce al equipo de Clear Group */
      /* Lines valores */
     .section_valores{
-         top: 80px;
-       
+        top: 80px;
     }
     .container_line_valores{
         position: absolute;
