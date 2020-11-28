@@ -33,6 +33,7 @@
   <body>
     <header id="bg">
       <img id="imgHeader" class="none" src="img/clear_group.png" alt="" />
+      <div class="languageLetras none" id="change"><strong class="cambio">ES</strong> - <strong class="DontActive">EN</strong></div>
       <div class="logo_init">
         <svg
           version="1.1"
@@ -93,19 +94,19 @@
       <nav id="navBarActivate" class="navBar none">
         <ul class="ul_navbar">
           <li class="li_menu">
-            <a class="li_menu_link" href="#historia">HISTORIA</a>
+            <a id="menuHistoria" class="li_menu_link" href="#historia">HISTORIA</a>
           </li>
           <li class="li_menu">
-            <a class="li_menu_link" href="#nosotros">NOSOTROS</a>
+            <a id="menuNosotros" class="li_menu_link" href="#nosotros">NOSOTROS</a>
           </li>
           <li class="li_menu">
-            <a class="li_menu_link" href="#valores">VALORES</a>
+            <a id="menuValores" class="li_menu_link" href="#valores">VALORES</a>
           </li>
           <li class="li_menu">
-            <a class="li_menu_link" href="#empresa">EMPRESAS</a>
+            <a id="menuEMpresa" class="li_menu_link" href="#empresa">EMPRESAS</a>
           </li>
           <li class="li_menu">
-            <a class="li_menu_link" href="#contacto">CONTÁCTANOS</a>
+            <a id="menuContacto" class="li_menu_link" href="#contacto">CONTÁCTANOS</a>
           </li>
         </ul>
       </nav>
@@ -127,7 +128,7 @@
           <div class="circle small-small"></div>
         </div>
         <div class="container_paragraph">
-          <p class="paragraph">
+          <p id="pHistoria" class="paragraph">
             Clear Group fue creado el año 2018 producto de la fusión de las
             empresas <span>Clear People</span> , fundada el año 2014 por
             <span>Marcelo Solis Chapa</span> y <span>Puente Digital</span> ,
@@ -146,9 +147,9 @@
           <div class="circle small-small"></div>
         </div>
 
-        <h3 class="title_history">Propósito</h3>
+        <h3 id="proposito" class="title_history">Propósito</h3>
         <div class="container_paragraph">
-          <p class="paragraph">
+          <p id="pProposito" class="paragraph">
             Queremos generar modelos de <span>negocios</span> ambiciosos,
             <span>inspiradores, motivadores</span> y que apunten a resolver
             problemas globales, agreguen valor a personas y organizaciones.
@@ -163,9 +164,9 @@
         <div class="circle small">
           <div class="circle small-small"></div>
         </div>
-        <h4 class="title_history">Inspiración</h4>
+        <h4 id="pInspiración" class="title_history">Inspiración</h4>
         <div class="container_paragraph">
-          <p class="paragraph">
+          <p id="inspiracion" class="paragraph">
             Nos encanta <span>aprender</span>, y los desafíos globales y
             empresariales nos permiten, <span>conocer</span>, comprender y
             compartir nuevas realidades y
@@ -177,7 +178,7 @@
         <div class="circle one">
           <div class="circle two"></div>
         </div>
-        <h4 class="title_history">Conoce al equipo de Clear Group</h4>
+        <h4 id="conoceEquipo" class="title_history">Conoce al equipo de Clear Group</h4>
         <img
           class="conoce_DESK_big"
           src="img/line_conoce_DESK_big.svg"
@@ -225,7 +226,7 @@
           </div>
 
           <div class="container_title_gestion">
-            <h4 class="title_history gestion_title">
+            <h4 id="gestionTeam" class="title_history gestion_title">
               Equipo Gestión de Personas
             </h4>
           </div>
@@ -279,7 +280,7 @@
             <div class="circle two dekstop_circle_remove"></div>
           </div>
           <div class="container_title_finanzas">
-            <h4 class="title_history gestion_title">Equipo de Finanzas</h4>
+            <h4 id="finanzasTeam" class="title_history gestion_title">Equipo de Finanzas</h4>
           </div>
           <div class="container_fabian_sime">
             <div class="foto fabian"></div>
@@ -318,9 +319,9 @@
         <div class="circle one">
           <div class="circle two"></div>
         </div>
-        <h4 class="title_history">NUESTROS VALORES</h4>
+        <h4 id="ourValue" class="title_history">NUESTROS VALORES</h4>
         <article class="container_paragraph">
-          <p class="paragraph">
+          <p id="bienComun" class="paragraph">
             <span>Bien Común:</span> Todas nuestras empresas tienen como foco
             impactar positivamente a la ciudadanía, los sistemas sociales,
             instituciones y medios socioeconómicos, teniendo presente además,
@@ -331,7 +332,7 @@
           <div class="circle small">
             <div class="circle small-small"></div>
           </div>
-          <p class="paragraph">
+          <p id="trabajoEnEquipo" class="paragraph">
             <span>Trabajo en Equipo:</span> Todos los resultados de las
             iniciativas empresariales de Clear Group dependen del equipo de
             trabajo, el cual está compuesto por personas que comparten valores,
@@ -342,7 +343,7 @@
           <div class="circle small">
             <div class="circle small-small"></div>
           </div>
-          <p class="paragraph">
+          <p id="actuarDistinto" class="paragraph">
             <span>Actuar Distinto:</span> Valoramos el actuar de manera
             diferente y el proceso completo que implica, desde pensar, diseñar,
             proponer, hasta liderar y ponernos en acción.
@@ -352,7 +353,7 @@
           <div class="circle small">
             <div class="circle small-small"></div>
           </div>
-          <p class="paragraph">
+          <p id="mejorSiempre" class="paragraph">
             <span>Siempre Mejor:</span> Cada una de las personas que integran el
             equipo de Clear Group buscan crecer día a día, desarrollándose
             personal y profesionalmente.
@@ -372,7 +373,7 @@
           />
         </div>
         <div class="empresas">
-          <h4 class="title_history black">NUESTRAS EMPRESAS</h4>
+          <h4 id="nuetrasEmpresas" class="title_history black">NUESTRAS EMPRESAS</h4>
         </div>
         <div class="container_empresas_all">
           <div class="container_empresa">
@@ -396,7 +397,7 @@
           <div class="container_description_empresas">
             <div class="container_paragraph containerParagraphDesktop">
               <div class="move_empresas_proposito_people">
-                <p class="paragraph paragraphDesktop">
+                <p id="proClear" class="paragraph paragraphDesktop">
                   <span>Propósito:</span> Contribuir a que las personas puedan
                   encontrar amplios espacios de creatividad, desarrollo
                   profesional y oportunidades de negocios en la industria de
@@ -410,7 +411,7 @@
             </div>
             <div class="container_paragraph containerParagraphDesktop">
               <div class="move_empresas_inspiracion_people">
-                <p class="paragraph paragraphDesktop">
+                <p id="insClear" class="paragraph paragraphDesktop">
                   <span>Inspiración:</span> Ver a las personas felices
                   utilizando el máximo de sus potenciales creativos y
                   profesionales, creando valor para la industria, desarrollando
@@ -425,7 +426,7 @@
               </div>
               <div class="container_paragraph containerParagraphDesktop">
                 <div class="move_empresas_descip_people">
-                  <p class="paragraph paragraphDesktop">
+                  <p id="descClear" class="paragraph paragraphDesktop">
                     <span>Descripción:</span> Clear People es el mayor proveedor
                     de talento para la industria de los Medios en Chile. Trabaja
                     con más de 200 profesionales todos los meses atendiendo a
@@ -452,11 +453,11 @@
               <div class="container_paragraph">
                 <div class="container_paragraph containerParagraphDesktop">
                   <div class="move_empresas_proposito">
-                    <p class="paragraph paragraphDesktop">
+                    <p id="proPuente" class="paragraph paragraphDesktop">
                       <span>Propósito:</span> Desarrolla soluciones digitales
                       que permitan resolver el desafío que presenta la gestión
                       de personas a las organizaciones en la consecución de sus
-                      metas y objetivos empresariales
+                      metas y objetivos empresariales.
                     </p>
                   </div>
                 </div>
@@ -468,7 +469,7 @@
                 </div>
                 <div class="container_paragraph containerParagraphDesktop">
                   <div class="move_empresas_inspiracion">
-                    <p class="paragraph paragraphDesktop">
+                    <p id="insPuente" class="paragraph paragraphDesktop">
                       <span>Inspiración:</span> Resolver desafíos
                       organizacionales con soluciones innovadores que generen
                       cambios disruptivos en la industria.
@@ -483,7 +484,7 @@
                 </div>
                 <div class="container_paragraph containerParagraphDesktop">
                   <div class="move_empresas_descrip">
-                    <p class="paragraph paragraphDesktop">
+                    <p id="descPuente" class="paragraph paragraphDesktop">
                       <span>Descripción:</span> Puente Digital desde el año 2016
                       ha funcionado como un laboratorio de desarrollo para
                       tecnologías disruptivas. Desde su fusión con Clear Group a
@@ -499,7 +500,7 @@
         </div>
       </section>
       <section id="contacto" class="contact_us">
-        <h4 class="title_history">CONTÁCTANOS</h4>
+        <h4 id="contcUs" class="title_history">CONTÁCTANOS</h4>
         <div class="cajetilla">
           <form 
           id="form"
@@ -507,34 +508,34 @@
             <input
               name="nombre"
               id="name"
-              class="formulario"
+              class="formulario nameinput"
               type="text"
-              placeholder="Nombre"
+              placeholder="Name"
             />
             <input
               name="apellido"
               id="lastname"
-              class="formulario"
+              class="formulario lastinput"
               type="text"
-              placeholder="Apellido"
+              placeholder="Lastname"
             />
             <input
               name="email"
               id="email"
-              class="formulario"
+              class="formulario emailinput"
               type="email"
-              placeholder="Correo electrónico"
+              placeholder="Email"
             />
             <textarea
               name=""
               id="message"
               cols="30"
               rows="10"
-              placeholder="Comentarios adicionales"
+              placeholder="Additional comments "
             ></textarea>
             <input
               id="contact-form-submit"
-              class="btn"
+              class="btn btninput"
               type="submit"
               value="Enviar"
             />

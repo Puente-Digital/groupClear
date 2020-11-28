@@ -3,6 +3,7 @@ body{
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 300;
+    overflow-x: hidden;
 }
 :root{
     scroll-behavior: smooth;
@@ -42,6 +43,15 @@ a{
     color: gray;
     margin-left: 120px;
     animation: animateRotate 10s ease;
+}
+.languageLetras{
+    position: absolute;
+    cursor: pointer;
+    right: 100px;
+    animation: animatelogoHeader 2s ease;
+}
+.DontActive{
+    color: rgba(39, 44, 45, 0.3);
 }
 .mensajeErr{
     position: relative;
@@ -453,6 +463,9 @@ form{
 textarea{
     width: 70vw;
 }
+body.language .nameinput::placeholder::before{
+    content: 'Name';
+}
 .btn{
     position: relative;
     top: 20px;
@@ -564,20 +577,17 @@ textarea{
         top: 580px;
     
     }
- 
     .container_line_gestion{
         position: absolute;
         width: 100%;
         top: 760px;
     
     }
- 
     .container_line_finanza{
         position: absolute;
         width: 100%;
         top: 1930px;
     }
-
     /* Lines Conoce al equipos */
     /* Lines valores */
     .container_line_valores{
@@ -621,6 +631,7 @@ textarea{
     .foot{
         top: 800px;
     }
+
 }
 @media screen and (min-width:360px){
      /* Lines Conoce al equipos */
@@ -664,7 +675,6 @@ textarea{
         position: absolute;
         width: 100%;
         top: -285px;
-      
     }
     .container_line_people{
         position: absolute;
@@ -690,7 +700,7 @@ textarea{
 }
 @media screen and (min-width:375px){
       /* Lines Conoce al equipos */
-      .container_line_marcelo{
+    .container_line_marcelo{
         position: absolute;
         width: 100%;
         top: 70px;
@@ -723,7 +733,6 @@ textarea{
         position: absolute;
         width: 100%;
         top: -290px;
-     
     }
     .container_line_people{
         position: absolute;
@@ -750,30 +759,28 @@ textarea{
 @media screen and (min-width:411px){
     /* Lines Conoce al equipos */
     .container_line_marcelo{
-      position: absolute;
-      width: 100%;
-      top: 70px;
-  
+        position: absolute;
+        width: 100%;
+        top: 70px;
     }
     .container_line_gestion{
-      position: absolute;
-      width: 100%;
-      top: 675px;
-  
+        position: absolute;
+        width: 100%;
+        top: 675px;
     }
     .container_line_finanza{
-      position: absolute;
-      width: 100%;
-      top: 1840px;
+        position: absolute;
+        width: 100%;
+        top: 1840px;
     }
   /* Lines Conoce al equipos */
 
   /* Lines valores */
-  .container_line_valores{
-      position: absolute;
-      width: 100%;
-      top: -420px;
-  }
+    .container_line_valores{
+        position: absolute;
+        width: 100%;
+        top: -420px;
+    }
   /* Lines valores */
   /* Lines Empresas */
   .container_empresas_all{
@@ -1026,29 +1033,29 @@ textarea{
       top: -520px;
 
   }
-  .container_description_empresas{
-      top: 30px;
-  }
-  .container_line_people{
-      position: absolute;
-      width: 100%;
-      top: -560px;
-  }
-  .container_line_puente{
-      position: absolute;
-      width: 100%;
-      top: -295px;
-  }
-  .container_puente_description{
-      position: relative;
-      top: 100px;
-  }
+    .container_description_empresas{
+        top: 30px;
+    }
+    .container_line_people{
+        position: absolute;
+        width: 100%;
+        top: -560px;
+    }
+    .container_line_puente{
+        position: absolute;
+        width: 100%;
+        top: -295px;
+    }
+    .container_puente_description{
+        position: relative;
+        top: 100px;
+    }
   /* Lines Empresas */
   /* contacto */
-  .contact_us{
-      top: 1150px;
-      margin-bottom: 180px;
-  }
+    .contact_us{
+    top: 1150px;
+    margin-bottom: 180px;
+    }
   /* contacto */
   /* form */
     .formulario{
@@ -1410,6 +1417,14 @@ textarea{
         top: 340px;
         z-index: 100;
     }
+    .languageLetras{
+        position: absolute;
+        cursor: pointer;
+        font-size: 30px;
+        top: 50px;
+        right: -180px;
+        animation: animatelogoHeader 2s ease;
+    }
     .title_header_h1{
         display: block;
         position: absolute;
@@ -1693,6 +1708,14 @@ textarea{
     .logo_init{
         left: 830px;
     }
+    .languageLetras{
+        position: absolute;
+        cursor: pointer;
+        font-size: 30px;
+        top: 50px;
+        right: -230px;
+        animation: animatelogoHeader 2s ease;
+    }
     .gestionContainer{
         top: -50px; 
     }
@@ -1810,6 +1833,7 @@ textarea{
     .logo_init{
         left: 910px;
     }
+   
     .gestionContainer{
         top: 15px;  
     }
