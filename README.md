@@ -2,7 +2,7 @@ Página web de Clear Group. El objetivo de esta página es netamente informativa
 Tecnologías utilizadas:
 
   - HTML5
-  - CCS3
+  - CSS3
   - JavaScript
   - SVG
   - Animaciones CSS3
