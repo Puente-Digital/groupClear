@@ -7,6 +7,7 @@ Tecnologías utilizadas:
   - JavaScript
   - SVG
   - Animaciones CSS3
+  - Adobe XD
   
 Link: 
   https://ifrainmedinagarcia.github.io/groupClear/
